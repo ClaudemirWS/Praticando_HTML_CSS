@@ -1,2 +1,3 @@
-# Praticando_HTML
-Repositório criado com o objetivo de armazenar pequenos exercícios realizados em HTML através da plataforma EAD do IFRS e do aplicativo MIMO
+# Pequenos exercícios realizados em HTML.
+### Estudando a partir da plataforma EAD do [IFRS](https://moodle.ifrs.edu.br/) e do aplicativo [mimo](https://getmimo.com/).
+### Estou utilizando o [VsCode](https://code.visualstudio.com/download).
