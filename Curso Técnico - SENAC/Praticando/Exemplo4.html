@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de formulário</title>
+</head>
+
+<body>
+    <section>
+        <form action="paginaderecebimento" method="POST">
+            <label>Nome: </label>
+            <input type="text" name="nome_funcionario" />
+
+            <label>Senha: </label>
+            <input type="password" name="senha_funcionario" />
+            <br>
+            <label>Atuação: </label>
+            <select name="atuacao">
+                <option value="Atendente">Atendente </option>
+                <option value="Gerente">Gerente </option>
+            </select>
+            <br>
+            <label>Comentário <label>
+                    <br>
+                    <textarea name="comentario"> </textarea>
+
+        </form>
+    </section>
+    <section>
+        <br>
+        <form>
+            <div>
+                <label for="mail">Digite seu email:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <p>Qual o seu curso?</p>
+                <input type="radio" id="tds" name="opcoes-curso" value="TDS">
+                <label for="tds">Téc. Desenvolv. Sistemas</label>
+
+                <input type="radio" id="ipi" name="opcoes-curso" value="TII">
+                <label for="ipi">Téc. Informática para a Internet
+            </div>
+            <div>
+                <input type="checkbox" id="news" name="news" value="Sim">
+                <label for="news">Deseja receber nossa newsletter mensal?
+            </div>
+        </form>
+    </section>
+    <br>
+    <input type="submit" value="Cadastro" />
+</body>
+<footer>
+    <h2>Apontando para outro arquivo da pasta</h2>
+    <a href="Exemplo5.html">Vamos para o Exemplo 5</a>
+</footer>
+
+</html>
