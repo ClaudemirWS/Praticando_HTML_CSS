@@ -1,0 +1,29 @@
+h1 {
+    font-family: Verdana;
+    text-align: center;
+    color: blue;
+}
+
+h2 {
+    font-family: Georgia;
+    text-align: center;
+    color: #008000;
+}
+
+p {
+    font-family: Arial;
+    font-size: large;
+    text-align: center;
+    color: red;
+}
+
+/* SELETOR UNIVERSAL
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+  }  
+  
+*/
