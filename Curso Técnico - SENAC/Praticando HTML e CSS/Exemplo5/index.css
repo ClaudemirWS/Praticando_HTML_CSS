@@ -1,0 +1,35 @@
+table,td{
+  border: 1px  solid gray;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.destaque{
+  background-color: black;
+  color: white
+}
+
+td.valor{
+  text-align: right;
+}
+
+.credito{
+  color: green;
+}
+
+.debito{
+  color: red;
+}
+
+
+.destaque{
+  width: 100%;
+  text-align: center;
+}
+
+body{
+  font-family: 'Lucida Sans';
+}

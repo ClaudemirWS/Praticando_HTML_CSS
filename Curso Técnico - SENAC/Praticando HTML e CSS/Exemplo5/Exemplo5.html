@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando classes e IDs</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h3>Extrato do Mês</h3>
+    <table>
+        <thead>
+            <tr class="destaque">
+                <th>Data</th>
+                <th>Descrição</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10/10/22</td>
+                <td>Saque</td>
+                <td class="valor debito">-200,00</td>
+            </tr>
+            <tr>
+                <td>10/10/22</td>
+                <td>Depósito</td>
+                <td class="valor credito">300,00</td>
+            </tr>
+            <tr>
+                <td>11/10/22</td>
+                <td>Compra</td>
+                <td class="valor debito">-100,00</td>
+            </tr>
+            <tr>
+                <td>12/10/22</td>
+                <td>Compra</td>
+                <td class="valor debito">-50,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="destaque">
+                <td colspan="3" class="valor">Total: <span class="debito">R$-50,00</span></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
