@@ -1,0 +1,18 @@
+.main{
+    margin-left: 10px;
+}
+
+.titulo{
+    font-family: Helvetica;
+    font-size: 46px;
+}
+
+.botao{
+    font-size: 16px;
+    padding: 7px;
+    margin: 4px;
+}
+
+.foot{
+    text-align: center;
+}
