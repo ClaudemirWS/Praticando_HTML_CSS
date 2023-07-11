@@ -1,18 +1,49 @@
-.main{
-    margin-left: 10px;
+.main {
+    margin-left: 30px;
+    background-color: rgb(231, 255, 251);
 }
 
-.titulo{
+.head h1 {
     font-family: Helvetica;
     font-size: 46px;
 }
 
-.botao{
+.head button {
     font-size: 16px;
     padding: 7px;
     margin: 4px;
 }
 
-.foot{
+.destaque {
+    display: flex;
+}
+
+.destaque p {
+    margin-left: 20px;
+    max-width: 65%;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.servicos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicos p {
+    text-align: justify;
+    font-size: 15px;
+    max-width: 80%;
+}
+
+.servicos button {
+    padding: 7px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.foot {
+    font-size: 15px;
     text-align: center;
+    margin-top: 5%;
 }
